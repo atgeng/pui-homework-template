@@ -2,4 +2,4 @@
 
 Deployed website: https://atgeng.github.io/pui-homework-template/
 
-Repository link: `add the URL to this repository`
+Repository link: https://github.com/atgeng/pui-homework-template
