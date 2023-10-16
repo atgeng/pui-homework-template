@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Cinnamon roll shop">
+    <meta name="keywords" content="Cinnamon, Cinnamon roll, Bakery, Bun Bun Bake Shop, Bake">
+    <meta name="author" content="Annie Geng">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
+    <title>Bun Bun Bake Shop</title>
+  </head>
+
+  <body>
+    <!-- header -->
+    <div id="header">
+
+      <!-- logo -->
+      <div id="logo">
+        <a href="index.html" id="logoHover"><img src="../assets/logo/logo-01.svg" alt="Bun Bun Bake Shop Logo" title="Bun Bun Bake Shop" id="logo"></a>
+      </div>
+
+      <!-- navbar -->
+      <div id="navbar">
+        <div id="nav-items">
+          <div id="nav-links">
+            <ul>
+              <li>
+                <a href="index.html">PRODUCTS</a>
+              </li>
+              <li>
+                <a href="cart.html" class="active">CART</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- horizontal line -->
+          <div id="line">
+            <hr class="solid"/>
+          </div>
+        </div>
+
+        <!-- Our hand-made cinnamon rolls -->
+        <div id="slogan">
+          <h1 class="align-bottom">Shopping cart</h1>
+        </div>
+      </div>
+    </div>
+    <!-- cart body -->
+    <div id="cart-body">
+        <!-- cart item list -->
+        <div id="cart-page">
+          <!-- template -->
+          <template id="cart-item-template">
+            <!-- cart item -->
+            <div class="cart-card">
+              <!-- product img -->
+              <div class="cart-img">
+                <img src="../assets/products/original-cinnamon-roll.jpg" alt="original cinnamon roll" title="Original Cinnamon Roll" class="smallimg cart-image"/>
+              </div>
+              <!-- product description -->
+              <div class="cart-descrip">
+                <p class="cart-name">Original Cinnamon Roll</p>
+                <p class="cart-glaze">Glazing: Keep original</p>
+                <p class="cart-pack">Pack Size: 1</p>
+              </div>
+              <!-- product price -->
+              <div class="cart-price">
+                <p>$ 2.49</p>
+              </div>
+              <!-- remove button -->
+              <div id="remove-btn">
+                <h2>Remove</h2>
+              </div>
+            </div>
+          </template>
+        </div>
+        
+
+
+      <!-- cart total -->
+      <hr class="solid"/>
+      <div id="cart-total">
+        <div id="total">
+          <p>Total</p>
+        </div>
+        <div id="total-price">
+          <p>$ 0.00</p>
+        </div>
+      </div>
+      <!-- checkout button -->
+      <div id="checkout-btn">
+      <button class="checkout">Checkout</button>
+      </div>
+    </div>
+  </body>
+</html>
